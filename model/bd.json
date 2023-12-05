@@ -1,0 +1,41 @@
+[
+    
+    {
+        "id": "0",
+        "nome": "intro-guias",
+        "icon":"./assets/MaskGroup.png",
+        "main":"./index.html"
+    },
+    {
+        "id": "1",
+        "nome": "Ecom",
+        "img":"./assets/ecom.png",
+        "icon":"./assets/ecom.svg",
+        "status":"Em desenvolvimento",
+        "descricao":"Ecom, projetado para informar preços de combustiveis, avaliação, local e bandeira dos postos de combustiveis.",
+        "responsivo":"Não",
+        "linkCod":"https://github.com/JuhhSobrinho/Ecom-Web",
+        "linkProj":"Não Disponivel",
+        "linkCodFake":"GitHub/Ecom.com",
+        "linkProjFake":"Não Disponivel",
+        "sobre":"Ecom uma aplicação web utilizando React.js, CSS, HTML, Mapa, API de Geolocalização e Banco de Dados Firebase.",
+        "obj":"combustivel",
+        "main":"./projeto.html"
+    }
+    ,
+    {
+        "id": "2",
+        "nome": "Mercado Privado",
+        "img":"",
+        "icon":"./assets/bolsa-de-compras.png",
+        "status":"Desenvolvido",
+        "descricao":"",
+        "responsivo":"Não",
+        "linkCod":"https://github.com/JuhhSobrinho/Mercado-Privado",
+        "linkProj":"https://juhhsobrinho.github.io/Mercado-Privado/",
+        "linkCodFake":"GitHub/Mercado-Privado.com",
+        "linkProjFake":"GitHub.io/Mercado-Privado.com",
+        "sobre":"",
+        "main":"./projeto.html"
+    }
+]
