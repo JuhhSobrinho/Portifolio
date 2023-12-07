@@ -12,30 +12,94 @@
         "img":"./assets/ecom.png",
         "icon":"./assets/ecom.svg",
         "status":"Em desenvolvimento",
-        "descricao":"Ecom, projetado para informar preços de combustiveis, avaliação, local e bandeira dos postos de combustiveis.",
+        "descricao":"Ecom, projetado para informar preços de combustiveis, avaliação, local e bandeira dos postos de combustiveis ⛽. Projeto inspirado em tcc.",
         "responsivo":"Não",
         "linkCod":"https://github.com/JuhhSobrinho/Ecom-Web",
-        "linkProj":"Não Disponivel",
+        "linkProj":"#Não-Disponivel",
         "linkCodFake":"GitHub/Ecom.com",
         "linkProjFake":"Não Disponivel",
-        "sobre":"Ecom uma aplicação web utilizando React.js, CSS, HTML, Mapa, API de Geolocalização e Banco de Dados Firebase.",
-        "obj":"combustivel",
+        "sobre":"Ecom uma aplicação web utilizando React.js, CSS, HTML, Mapa, API de Geolocalização e Banco de Dados Firebase. Foi utilizado Mapa para informar os postos e endereço, API de geolocalização para transformar enreço em latitude e longitude, afim de, arazenar no banco de dados firebase e ser utilizado no mapa.",
         "main":"./projeto.html"
     }
     ,
     {
         "id": "2",
         "nome": "Mercado Privado",
-        "img":"",
+        "img":"./assets/mercadoPri.png",
         "icon":"./assets/bolsa-de-compras.png",
         "status":"Desenvolvido",
-        "descricao":"",
+        "descricao":"Projetinho feito no intensivo de js da hashtag de e-commerce, Mercadinho-Privado 🤫",
         "responsivo":"Não",
         "linkCod":"https://github.com/JuhhSobrinho/Mercado-Privado",
         "linkProj":"https://juhhsobrinho.github.io/Mercado-Privado/",
-        "linkCodFake":"GitHub/Mercado-Privado.com",
-        "linkProjFake":"GitHub.io/Mercado-Privado.com",
-        "sobre":"",
+        "linkCodFake":"GitHub/MercPrivado.com",
+        "linkProjFake":"GitHub.io/MercPrivado.com",
+        "sobre":"Mercado-Privado feito com JavaScript, HTML, CSS e com o empacotador Vite. Foi utilizado .json como banco de dados e localStorege para armazenar o carrrinho e o histórico da ultima compra.",
         "main":"./projeto.html"
     }
+    ,
+    {
+        "id": "3",
+        "nome": "Nitro-Pomodoro",
+        "img":"./assets/nitroPomo.png",
+        "icon":"./assets/tomato.png",
+        "status":"Desenvolvido",
+        "descricao":"Nitro Pomo 🍅, feito em JavaScript para utilizar o metodo/Técnica de Pomodoro. Gerenciamento de tempo ⏳",
+        "responsivo":"Sim",
+        "linkCod":"https://github.com/JuhhSobrinho/nitro-Pomodoro",
+        "linkProj":"https://juhhsobrinho.github.io/nitro-Pomodoro/",
+        "linkCodFake":"GitHub/NitroPomo.com",
+        "linkProjFake":"GitHub.io/NitroPomo.com",
+        "sobre":"Nitro-Pomo feito com JavaScript, HTML, CSS e com o empacotador Vite. Foi utilizado notificação e som de alerta, afim de atualiza o usuario e informar quel o tempo acabou. Projeto utiliza a Logica de Pomodoro para gerenciamento de tempo, que se resume em 25min de trabalho e 5min de descanto, apor completar 4 trabalhos, 30min de pausa.",
+        "main":"./projeto.html"
+    }
+    ,
+    {
+        "id": "4",
+        "nome": "Ebulição",
+        "img":"./assets/ebulio.png",
+        "icon":"./assets/clima.svg",
+        "status":"Desenvolvido",
+        "descricao":"Ebulição 🌦 um site web feito em JS para informa a tempeatura, umidade e velocidade do vento utilizando API.",
+        "responsivo":"Sim",
+        "linkCod":"https://github.com/JuhhSobrinho/ebuli-o",
+        "linkProj":"https://juhhsobrinho.github.io/ebuli-o/view/index.html",
+        "linkCodFake":"GitHub/ebuli-o.com",
+        "linkProjFake":"GitHub.io/ebuli-o.com",
+        "sobre":"Ebulição/ebuli-o feito em JavaScript, HTML, CSS e com api de clima tempo.Projeto, o qual, informa temperatura, clima, sensação termica, Umidade, velocidade do vento, hora e disponibiliza a possibilidade de pesquisar sua cidade.",
+        "main":"./projeto.html"
+    }
+    ,
+    {
+        "id": "5",
+        "nome": "Calculadora-Mentor",
+        "img":"./assets/calculadoraMentor.png",
+        "icon":"./assets/calcMentor.svg",
+        "status":"Desenvolvido",
+        "descricao":"Calculadora Mentor feita com JS para calcular a diferença de anos, dias e meses em relação ao atual.",
+        "responsivo":"Sim",
+        "linkCod":"https://github.com/JuhhSobrinho/Calculadaora-Mentor",
+        "linkProj":"https://juhhsobrinho.github.io/Calculadaora-Mentor/",
+        "linkCodFake":"GitHub/Calc-Mentor.com",
+        "linkProjFake":"GitHub.io/Calc-Mentor.com",
+        "sobre":"Calculadora Mentor, feita em JavaScript, CSS, HTML. Projeto inspirado pelo Front-end mentor, local onde disponibiliza varias ideias de projeto, para assim, testar suas capacidades.",
+        "main":"./projeto.html"
+    }
+    ,
+    {
+        "id": "6",
+        "nome": "InteractiveCard",
+        "img":"./assets/calculadoraMentor.png",
+        "icon":"./assets/calcMentor.svg",
+        "status":"Desenvolvido",
+        "descricao":"Calculadora Mentor feita com JS para calcular a diferença de anos, dias e meses em relação ao atual.",
+        "responsivo":"Sim",
+        "linkCod":"https://github.com/JuhhSobrinho/InteractiveCard",
+        "linkProj":"https://juhhsobrinho.github.io/InteractiveCard/",
+        "linkCodFake":"GitHub/InteractiveCard.com",
+        "linkProjFake":"GitHub.io/InteractiveCard.com",
+        "sobre":"Calculadora Mentor, feita em JavaScript, CSS, HTML. Projeto inspirado pelo Front-end mentor, local onde disponibiliza varias ideias de projeto, para assim, testar suas capacidades.",
+        "main":"./projeto.html"
+    }
+
 ]

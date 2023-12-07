@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <title>JuhhSobrinho</title>
 </head>
 
@@ -58,7 +59,6 @@
             </section>
         </section>
 
-
         <section class="sobre" id="sobre">
             <div class="line"></div>
             <h2 class="titulo-sobre">Sobre Mim</h2>
@@ -84,17 +84,17 @@
                     </div>
                 </div>
             </section>
+            <div class="line"></div>
         </section>
-        <div class="line"></div>
         <section class="contato" id="contato">
             <h2 class="titulo-sobre">Contato</h2>
-            <form class="card-forme-contato">
+            <form class="card-forme-contato" id="contact-form">
                 <div class="input-text">
-                    <input class="dados-text" placeholder="Seu Nome" type="text" name="Seu-nome" id="nome" />
-                    <input class="dados-text" placeholder="Seu Email" type="text" name="Seu-email" id="email" />
-                    <textarea class="dados-text" placeholder="Sua Mensagem" name="Seu-Mensagem" id="msg"></textarea>
+                    <input class="dados-text" placeholder="Seu Nome" type="text" name="user_name" id="nome" />
+                    <input class="dados-text" placeholder="Seu Email" type="text" name="user_email" id="email" />
+                    <textarea class="dados-text" placeholder="Sua Mensagem" name="message" id="msg"></textarea>
                 </div>
-                <input class="btn-enviar" type="submit" value="Enviar" />
+                <input id="btnEnviar" class="btn-enviar" type="button" value="Enviar"  />
             </form>
         </section>
     </main>
