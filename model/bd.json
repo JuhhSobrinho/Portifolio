@@ -88,17 +88,49 @@
     ,
     {
         "id": "6",
-        "nome": "InteractiveCard",
-        "img":"./assets/calculadoraMentor.png",
-        "icon":"./assets/calcMentor.svg",
+        "nome": "Interactive-Card",
+        "img":"./assets/interCard.png",
+        "icon":"./assets/icon-complete.svg",
         "status":"Desenvolvido",
-        "descricao":"Calculadora Mentor feita com JS para calcular a diferença de anos, dias e meses em relação ao atual.",
+        "descricao":"Interactive Card feito em React.js, um form para Cadastro de Cartão e seus dados 💳",
         "responsivo":"Sim",
         "linkCod":"https://github.com/JuhhSobrinho/InteractiveCard",
         "linkProj":"https://juhhsobrinho.github.io/InteractiveCard/",
-        "linkCodFake":"GitHub/InteractiveCard.com",
-        "linkProjFake":"GitHub.io/InteractiveCard.com",
-        "sobre":"Calculadora Mentor, feita em JavaScript, CSS, HTML. Projeto inspirado pelo Front-end mentor, local onde disponibiliza varias ideias de projeto, para assim, testar suas capacidades.",
+        "linkCodFake":"GitHub/Inter-Card.com",
+        "linkProjFake":"GitHub.io/Inter-Card.com",
+        "sobre":"Interactive Card, feita em React.js, CSS, HTML. Feito para cadastro de um jeito mais interativo, informando campos invalidos e vazios. Projeto inspirado pelo Front-end mentor, local onde disponibiliza varias ideias de projeto, para assim, testar suas capacidades.",
+        "main":"./projeto.html"
+    }
+    ,
+    {
+        "id": "7",
+        "nome": "X-MEN",
+        "img":"./assets/xmen.png",
+        "icon":"./assets/logoX.svg",
+        "status":"Desenvolvido",
+        "descricao":"X-MEN feito em JS, para informar o personagem e suas habilidades mutantes 👀.",
+        "responsivo":"Sim",
+        "linkCod":"https://github.com/JuhhSobrinho/x-men",
+        "linkProj":"https://juhhsobrinho.github.io/x-men/",
+        "linkCodFake":"GitHub/X-Men.com",
+        "linkProjFake":"GitHub.io/X-Men.com",
+        "sobre":"X-MEN, feita em JavaScript, CSS, HTML. foi utilizado um array para servir como Banco de dados, afim de armazenar o nome, descrição e imagem do personagem, assim sendo utilizado no projeto.",
+        "main":"./projeto.html"
+    }
+    ,
+    {
+        "id": "8",
+        "nome": "Nitro-Pomodoro-App",
+        "img":"./assets/pomoFundo2.png",
+        "icon":"./assets/tomatoApp.svg",
+        "status":"Desenvolvido",
+        "descricao":"Nitro Pomo 🍅, feito em React Native para utilizar o metodo/Técnica de Pomodoro. Gerenciamento de tempo ⏳",
+        "responsivo":"Sim",
+        "linkCod":"https://github.com/JuhhSobrinho/nitroPomo-app",
+        "linkProj":"https://drive.google.com/drive/folders/1AQRjpb81Uu3zUyImWoXNY6oK8dF5vzCS",
+        "linkCodFake":"GitHub/NitroPomoApp.com",
+        "linkProjFake":"GitHub.io/NitroPomoApp.com",
+        "sobre":"Nitro-Pomo feito com React Native, Expo, CSS e com o gereenciadoor de pacotes NPM do node.js. Foi utilizado notificação e som de alerta, afim de atualiza o usuario e informar quel o tempo acabou. Projeto utiliza a Logica de Pomodoro para gerenciamento de tempo, que se resume em 25min de trabalho e 5min de descanto, apor completar 4 trabalhos, 30min de pausa.",
         "main":"./projeto.html"
     }
 

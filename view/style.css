@@ -19,12 +19,50 @@ p {
   text-decoration: none;
 }
 
+
+
+
+
+.splash{
+  background-image: url('./assets/splash.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.splash-intro{
+  background-color: #2f4550;
+  width: 80%;
+  height: 450px;
+  border-radius: 10px;
+  overflow: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#bemvindo{
+  text-align:left;
+  width: 50%;
+  font-size: 80px;
+}
+
+.devIcon{
+  height: 350px;
+}
+
+
+
+
+
+
 body {
   background-color: #586f7c;
   display: flex;
   justify-content: space-evenly;
   padding: 5px;
 }
+
 
 /* Estiliza a barra de rolagem */
 ::-webkit-scrollbar {
@@ -42,6 +80,7 @@ body {
 
 header {
   background-color: #2f4550;
+  overflow: auto;
   width: 80px;
   height: 500px;
   margin: 10px;
@@ -268,10 +307,11 @@ main {
   width: 350px;
   padding: 10px;
   border-radius: 5px;
+  text-align: justify;
 }
 
 .habilidades-dados {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .card-forme-contato {
