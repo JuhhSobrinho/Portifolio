@@ -10,7 +10,6 @@ let textGuiaHTML = '';
 
 let sectionImgFicha = '';
 
-
 carregarBancoDeDados()
     .then(bd => {
         // Agora você pode acessar os bd do JSO
@@ -65,6 +64,8 @@ carregarBancoDeDados()
 
         if (path === "/view/projeto.html") {
             dados();
+        } else {
+            main();
         }
 
 
@@ -140,8 +141,38 @@ btn.addEventListener('click', () => {
         .catch((error) => {
             console.error("Erro ao enviar o e-mail:", error);
             alert("Erro ao enviar o e-mail. Por favor, tente novamente mais tarde.");
-        });        
+        });
 });
+
+
+
+
+function main() {
+    var helloWorld = document.getElementById('helloWorld');
+    let olamundo = 'Hello World';
+    let test = 'O Portfólio';
+
+    let textArray = helloWorld.textContent.split('');
+
+    function trocarLetras(index, textoAlvo) {
+        setTimeout(function () {
+            textArray[index] = textoAlvo[index];
+            helloWorld.innerHTML = textArray.join('');
+
+            if (index < textArray.length - 1) {
+                trocarLetras(index + 1, textoAlvo);
+            } else {
+                // Após formar a palavra alvo, aguarde por um segundo antes de trocar para 'Hello World'
+                setTimeout(function () {
+                    trocarLetras(0, olamundo);
+                }, 200);
+            }
+        }, 120); // Ajuste o tempo conforme necessário
+    }
+
+    trocarLetras(0, test);
+
+}
 
 
 

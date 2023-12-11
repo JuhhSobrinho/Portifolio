@@ -265,6 +265,13 @@ main {
   margin: 30px;
 }
 
+
+
+
+
+
+
+
 .sobre-habilidade {
   display: flex;
   width: 100%;
@@ -289,7 +296,7 @@ main {
 
 .quemsou-dados {
   text-align: center;
-  width: 350px;
+  width: 300px;
 }
 
 .quemsou-dados {
@@ -304,15 +311,80 @@ main {
 
 .habilidades-card {
   background-color: #393d3f;
-  width: 350px;
+  width: 280px;
+  height: 200px;
   padding: 10px;
   border-radius: 5px;
   text-align: justify;
+  align-items: center;
+  display: flex;
 }
 
 .habilidades-dados {
   font-size: 22px;
 }
+
+#card-cert {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  width: 280px;
+  height: 330px;
+  overflow: hidden;
+  position: relative;
+  transition: 1s;
+}
+
+#carrossel {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 2000px;
+  justify-content: space-between;
+  align-items: center;
+  animation: scroll 20s linear infinite;
+  transition: 1s;
+}
+
+#card-cert:hover #carrossel{
+  transition: 1s;
+  animation: none;
+  width: 380px;
+  height: 400px;
+  overflow: auto;
+}
+
+.slide {
+  width: 380px; /* Largura de cada slide */
+  position: relative;
+  z-index: 1; /* Animação de transição */
+}
+
+.certificado {
+  width: 300px;
+  margin: 10px;
+  transition: width 1s; /* Adicionado para suavizar a transição de largura */
+}
+
+#card-cert:hover, #card-cert:hover .certificado{
+  width: 370px;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+
+
+
+
 
 .card-forme-contato {
   margin: 10px;
