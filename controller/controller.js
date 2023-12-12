@@ -64,7 +64,7 @@ carregarBancoDeDados()
             imgFicha.innerHTML = sectionImgFicha;
         }
 
-        if (path === "/view/projeto.html") {
+        if (path === "/view/projeto.html" || path === "/Portfolio/view/projeto.html") {
             dados();
         } else {
             main();
