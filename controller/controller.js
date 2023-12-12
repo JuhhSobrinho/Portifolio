@@ -6,6 +6,8 @@ const guias = document.getElementById('guias');
 const imgFicha = document.getElementById('img-ficha');
 const path = window.location.pathname;
 
+console.log(path);
+
 let textGuiaHTML = '';
 
 let sectionImgFicha = '';
