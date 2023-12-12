@@ -3,7 +3,7 @@
     {
         "id": "0",
         "nome": "intro-guias",
-        "icon":"./assets/MaskGroup.png",
+        "icon":"./assets/Maskgroup.png",
         "main":"./index.html"
     },
     {
