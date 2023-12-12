@@ -312,7 +312,7 @@ main {
 .habilidades-card {
   background-color: #393d3f;
   width: 280px;
-  height: 200px;
+  height: 300px;
   padding: 10px;
   border-radius: 5px;
   text-align: justify;
@@ -330,7 +330,7 @@ main {
   align-items: start;
   flex-direction: column;
   width: 280px;
-  height: 330px;
+  height: 300px;
   overflow: hidden;
   position: relative;
   transition: 1s;
