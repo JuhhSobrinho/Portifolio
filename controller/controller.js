@@ -45,7 +45,7 @@ carregarBancoDeDados()
                 </p>
             </section>
 
-
+            <div class="line"></div>
             <div class="ficha-card">
                 <h1 class="status">
                     status: ${bd[geTLocalStorage("AtualGuia")].status}
@@ -60,7 +60,8 @@ carregarBancoDeDados()
                 <a href="${bd[geTLocalStorage("AtualGuia")].linkProj}">
                     <span class="ficha-spans" id="projectLink">Project: ${bd[geTLocalStorage("AtualGuia")].linkProjFake}</span>
                 </a>
-            </div>`;
+            </div>
+            <div class="line"></div>`;
             imgFicha.innerHTML = sectionImgFicha;
         }
 
@@ -152,7 +153,7 @@ btn.addEventListener('click', () => {
 function main() {
     var helloWorld = document.getElementById('helloWorld');
     let olamundo = 'Hello World';
-    let test = 'O Portfólio';
+    let test = 'Bem Vindo';
 
     let textArray = helloWorld.textContent.split('');
 
