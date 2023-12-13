@@ -48,7 +48,7 @@ carregarBancoDeDados()
             <div class="line-project"></div>
             <div class="ficha-card">
                 <h1 class="status">
-                    status: ${bd[geTLocalStorage("AtualGuia")].status}
+                    Status: ${bd[geTLocalStorage("AtualGuia")].status}
                 </h1>
                 <p class="descricao">
                     ${bd[geTLocalStorage("AtualGuia")].descricao}

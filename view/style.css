@@ -373,7 +373,6 @@ main {
 }
 
 .card-forme-contato {
-  margin: 10px;
   background-color: #393d3f;
   width: 500px;
   padding: 20px;
@@ -673,7 +672,7 @@ main {
   .img-ficha {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 5px;
     width: 90%;
@@ -691,6 +690,11 @@ main {
     height: auto;
     padding: 10px;
     border-radius: 5px;
+  }
+
+  .descricao {
+    padding: 10px;
+    height: auto;
   }
 
   .line-project{
@@ -718,6 +722,11 @@ main {
 
   .sobre-project-titulo {
     width: 260px;
+  }
+
+  .titulo-sobre{
+    width: auto;
+    text-align: center;
   }
 
   .sobre-project-dados {
