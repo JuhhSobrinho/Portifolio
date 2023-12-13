@@ -496,6 +496,10 @@ main {
   height: 150px;
 }
 
+.descricao-link{
+  padding: 10px;
+}
+
 .ficha-spans {
   font-size: 18px;
   padding: 5px;

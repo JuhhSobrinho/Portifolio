@@ -50,16 +50,16 @@ carregarBancoDeDados()
                 <h1 class="status">
                     Status: ${bd[geTLocalStorage("AtualGuia")].status}
                 </h1>
-                <p class="descricao">
+                <p class="descricao-link">
                     ${bd[geTLocalStorage("AtualGuia")].descricao}
                 </p>
                 <div class="line-splash"></div>
                 <span class="ficha-spans" id="responsividade">Responsivo: ${bd[geTLocalStorage("AtualGuia")].responsivo}</span>
                 <a href="${bd[geTLocalStorage("AtualGuia")].linkCod}">
-                    <span class="ficha-spans" id="codigoLink">Codigo: ${bd[geTLocalStorage("AtualGuia")].linkCodFake}</span>
+                    <span class="ficha-spans" id="codigoLink">Codigo:  <p class="descricao-link"> ${bd[geTLocalStorage("AtualGuia")].linkCodFake} </p></span>
                 </a>
                 <a href="${bd[geTLocalStorage("AtualGuia")].linkProj}">
-                    <span class="ficha-spans" id="projectLink">Project: ${bd[geTLocalStorage("AtualGuia")].linkProjFake}</span>
+                    <span class="ficha-spans" id="projectLink">Project: <p class="descricao-link"> ${bd[geTLocalStorage("AtualGuia")].linkProjFake} </p></span>
                 </a>
             </div>
             <div class="line-project"></div>`;
