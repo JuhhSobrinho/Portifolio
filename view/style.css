@@ -501,6 +501,9 @@ main {
 }
 
 @media screen and (max-width: 780px) {
+
+  /*//////////////////////////-base-////////////////////////////*/
+
   body {
     flex-direction: column;
     align-items: center;
@@ -539,7 +542,7 @@ main {
   }
 
 
-
+/*//////////////////////////-main-////////////////////////////*/
 
 
   .link-parado {
@@ -549,8 +552,13 @@ main {
     cursor: pointer;
   }
 
+/*//////////////////////////-intro-////////////////////////////*/
 
-
+.titulo-midias{
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
 
   .hello-titulo {
     width: 100%;
@@ -597,7 +605,7 @@ main {
   }
 
 
-
+/*//////////////////////////-sobre mim-////////////////////////////*/
 
 
   .descricao-titulo,
@@ -624,11 +632,6 @@ main {
     width: 90%;
   }
 
-  .titulo-midias{
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
   .sobre-habilidade {
     flex-direction: column;
   }
@@ -636,4 +639,72 @@ main {
   .btn-enviar, #nome, #email{
     width: 90%;
   }
+
+
+/*//////////////////////////-Projetos-////////////////////////////*/
+
+
+#main-project{
+  background-color: #2f4550;
+  width: 100%;
+  border-radius: 5px;
+  overflow: auto;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projeto-container{
+  width: auto;
+}
+
+.img-ficha {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  width: 90%;
+  margin: 0px;
+}
+
+.projeto-container:hover .img-project {
+  transition: 1s;
+  filter: blur(0px);
+}
+
+.ficha-card{
+  width: 90%;
+  height: auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sobre-project-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+}
+
+.img-project {
+  width: 95%;
+  height: auto;
+  border-radius: 5px;
+  filter: blur(3px);
+  transition: 0.5s;
+}
+
+.sobre-project-titulo{
+  width: 260px;
+}
+
+.sobre-project-dados {
+  width: 90%;
+  font-size: 16px;
+  padding: 10px;
+}
+
 }

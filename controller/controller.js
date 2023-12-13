@@ -35,31 +35,31 @@ carregarBancoDeDados()
         function dados() {
             sectionImgFicha = `            
             <section class="sobre-project-img">
-            <a href="${bd[geTLocalStorage("AtualGuia")].linkProj}" class="projeto-container" style="${saturacion(bd[geTLocalStorage("AtualGuia")].status)}">
-            <h1 class="nome-project">${bd[geTLocalStorage("AtualGuia")].nome}</h1>
-                <img  class="img-project" id="img-project" src="${bd[geTLocalStorage("AtualGuia")].img}" alt="foto-do-projeto-${bd[geTLocalStorage("AtualGuia")].nome}">
+                <a href="${bd[geTLocalStorage("AtualGuia")].linkProj}" class="projeto-container" style="${saturacion(bd[geTLocalStorage("AtualGuia")].status)}">
+                    <h1 class="nome-project">${bd[geTLocalStorage("AtualGuia")].nome}</h1>
+                    <img  class="img-project" id="img-project" src="${bd[geTLocalStorage("AtualGuia")].img}" alt="foto-do-projeto-${bd[geTLocalStorage("AtualGuia")].nome}">
                 </a>
                 <h1 class="sobre-project-titulo">Sobre o Projeto</h1>
-            <p class="sobre-project-dados">
-                ${bd[geTLocalStorage("AtualGuia")].sobre}
+                <p class="sobre-project-dados">
+                    ${bd[geTLocalStorage("AtualGuia")].sobre}
                 </p>
             </section>
 
 
             <div class="ficha-card">
-            <h1 class="status">
-            status: ${bd[geTLocalStorage("AtualGuia")].status}
-            </h1>
-            <p class="descricao">
-            ${bd[geTLocalStorage("AtualGuia")].descricao}
-            </p>
+                <h1 class="status">
+                    status: ${bd[geTLocalStorage("AtualGuia")].status}
+                </h1>
+                <p class="descricao">
+                    ${bd[geTLocalStorage("AtualGuia")].descricao}
+                </p>
                 <span class="ficha-spans" id="responsividade">Responsivo: ${bd[geTLocalStorage("AtualGuia")].responsivo}</span>
-            <a href="${bd[geTLocalStorage("AtualGuia")].linkCod}">
-            <span class="ficha-spans" id="codigoLink">Codigo: ${bd[geTLocalStorage("AtualGuia")].linkCodFake}</span>
-            </a>
-            <a href="${bd[geTLocalStorage("AtualGuia")].linkProj}">
-            <span class="ficha-spans" id="projectLink">Project: ${bd[geTLocalStorage("AtualGuia")].linkProjFake}</span>
-            </a>
+                <a href="${bd[geTLocalStorage("AtualGuia")].linkCod}">
+                    <span class="ficha-spans" id="codigoLink">Codigo: ${bd[geTLocalStorage("AtualGuia")].linkCodFake}</span>
+                </a>
+                <a href="${bd[geTLocalStorage("AtualGuia")].linkProj}">
+                    <span class="ficha-spans" id="projectLink">Project: ${bd[geTLocalStorage("AtualGuia")].linkProjFake}</span>
+                </a>
             </div>`;
             imgFicha.innerHTML = sectionImgFicha;
         }
