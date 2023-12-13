@@ -35,7 +35,7 @@ carregarBancoDeDados()
         function dados() {
             sectionImgFicha = `            
             <section class="sobre-project-img">
-                <a href="${bd[geTLocalStorage("AtualGuia")].linkProj}" class="projeto-container" style="${saturacion(bd[geTLocalStorage("AtualGuia")].status)}">
+                <a class="projeto-container" style="${saturacion(bd[geTLocalStorage("AtualGuia")].status)}">
                     <h1 class="nome-project">${bd[geTLocalStorage("AtualGuia")].nome}</h1>
                     <img  class="img-project" id="img-project" src="${bd[geTLocalStorage("AtualGuia")].img}" alt="foto-do-projeto-${bd[geTLocalStorage("AtualGuia")].nome}">
                 </a>

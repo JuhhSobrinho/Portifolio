@@ -569,13 +569,15 @@ main {
   }
 
   li{
-    margin: 5px;
-    padding: auto;
+    list-style-type: none;
   }
 
   .header-parado-ul{
-    background-color: #586f7c4d;
-    border-radius: 5px;
+    background-color: #586f7c4d;    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
   }
 
   /*//////////////////////////-intro-////////////////////////////*/
