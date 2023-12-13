@@ -173,8 +173,3 @@ function main() {
     }
 
     trocarLetras(0, test);
-
-}
-
-
-
