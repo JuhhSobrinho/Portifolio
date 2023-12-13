@@ -189,8 +189,8 @@ main {
 }
 
 .icon-midias:hover {
-  width: 30px;
-  margin: 30px;
+  width: 60px;
+  margin: 60px;
   transition: 0.5s;
 }
 
@@ -527,29 +527,67 @@ main {
     align-items: center;
   }
 
-  .link-parado {
-    font-size: 18px;
-    margin-right: 30px;
-    opacity: 0.4;
-    cursor: pointer;
-  }
-
   #line-menu {
     margin: 10px;
     width: 1px;
     height: 60%;
     background-color: #c6c5b9;
   }
-
   .icon-guias {
     height: 30px;
     width: 30px;
   }
 
+
+
+
+
+  .link-parado {
+    font-size: 18px;
+    margin-right: 32px;
+    opacity: 0.4;
+    cursor: pointer;
+  }
+
+
+
+
   .hello-titulo {
-    width: 300px;
+    width: 100%;
     font-size: 80px;
     text-align: center;
+  }
+
+  .icon-midias {
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+  }
+
+  .icon-midias:hover {
+    width: 35px;
+    height: 35px;
+    margin: 15px;
+    transition: 0.5s;
+  }
+
+  .icon-descricao{
+    width: 90%;
+    height: auto;
+  }
+
+  .icon-eu{
+    width: auto;
+    height: 90%;
+    transition: 0.5s;
+  }
+
+  
+
+  .icon-eu:hover {
+    height: 280px;    
+    width: 280px;
+    transition: 0.5s;
   }
 
   .sobre-habilidade-titulo {
@@ -557,6 +595,10 @@ main {
     width: 200px;
     text-align: center;
   }
+
+
+
+
 
   .descricao-titulo,
   .habilidades-card,
@@ -570,40 +612,28 @@ main {
     width: 230px;
   }
 
-  .icon-eu{
-    width: auto;
-    height: auto;
-    transition: 0.5s;
-  }
-  .icon-eu:hover {
-    height: 280px;    
-    width: 280px;
-    transition: 0.5s;
-  }
-
   #card-cert:hover,
   #card-cert:hover .certificado {
     width: 340px;
   }
 
   .titulo-icon,
-  .titulo-midias, .sobre, .contato {
+  .titulo-midias, .sobre, .contato, .intro{
     flex-direction: column;
     align-items: center;
-    width: auto;
+    width: 90%;
   }
 
-  .icon-midias {
-    width: 30px;
-    height: 30px;
-    margin: 20px;
+  .titulo-midias{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
-
   .sobre-habilidade {
     flex-direction: column;
   }
 
   .btn-enviar, #nome, #email{
-    width: 200px;
+    width: 90%;
   }
 }
