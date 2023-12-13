@@ -45,7 +45,7 @@ carregarBancoDeDados()
                 </p>
             </section>
 
-            <div class="line"></div>
+            <div class="line-project"></div>
             <div class="ficha-card">
                 <h1 class="status">
                     status: ${bd[geTLocalStorage("AtualGuia")].status}
@@ -53,6 +53,7 @@ carregarBancoDeDados()
                 <p class="descricao">
                     ${bd[geTLocalStorage("AtualGuia")].descricao}
                 </p>
+                <div class="line-splash"></div>
                 <span class="ficha-spans" id="responsividade">Responsivo: ${bd[geTLocalStorage("AtualGuia")].responsivo}</span>
                 <a href="${bd[geTLocalStorage("AtualGuia")].linkCod}">
                     <span class="ficha-spans" id="codigoLink">Codigo: ${bd[geTLocalStorage("AtualGuia")].linkCodFake}</span>
@@ -61,7 +62,7 @@ carregarBancoDeDados()
                     <span class="ficha-spans" id="projectLink">Project: ${bd[geTLocalStorage("AtualGuia")].linkProjFake}</span>
                 </a>
             </div>
-            <div class="line"></div>`;
+            <div class="line-project"></div>`;
             imgFicha.innerHTML = sectionImgFicha;
         }
 

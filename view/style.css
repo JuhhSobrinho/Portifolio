@@ -693,6 +693,13 @@ main {
     border-radius: 5px;
   }
 
+  .line-project{
+      height: 1px;
+      width: 90%;
+      background-color: #c6c5b9;
+      margin: 30px;
+  }
+
   .sobre-project-img {
     display: flex;
     flex-direction: column;
