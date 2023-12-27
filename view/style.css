@@ -669,6 +669,7 @@ main {
   .card-forme-contato {
     text-align: center;
     width: 95%;
+    height: auto;
   }
 
   .git-stats{
@@ -677,12 +678,12 @@ main {
   }
 
   #card-cert {
-    width: 230px;
+    width: 300px;
   }
 
   #card-cert:hover,
   #card-cert:hover .certificado {
-    width: 340px;
+    width: 320px;
   }
 
   .titulo-icon,
