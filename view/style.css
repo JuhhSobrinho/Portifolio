@@ -312,10 +312,15 @@ main {
   text-align: justify;
   align-items: center;
   display: flex;
+  flex-direction: column;
+}
+
+.git-stats{
+  height: 180;
 }
 
 .habilidades-dados {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 #card-cert {
@@ -434,6 +439,7 @@ main {
 /*/////////////////////PROJECT ///////////////////////*/
 
 .img-ficha {
+  padding-top: 20px;
   display: flex;
   justify-content: space-around;
 }
@@ -481,14 +487,28 @@ main {
   padding: 10px;
 }
 
+.ficha-git{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 1s;
+}
+
 .ficha-card {
   background-color: #393d3f;
   width: 350px;
-  height: 320px;
+  height: 220px;
   padding: 10px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+}
+
+.git-readme{
+  transition: 1s;
+  width: 350px;
+  margin: 10px;
+  
 }
 
 .descricao {
@@ -651,6 +671,11 @@ main {
     width: 95%;
   }
 
+  .git-stats{
+    width: 95%;
+    height: auto;
+  }
+
   #card-cert {
     width: 230px;
   }
@@ -683,6 +708,7 @@ main {
   /*//////////////////////////-Projetos-////////////////////////////*/
 
   #main-project {
+    padding-top: 20px;
     background-color: #2f4550;
     width: 100%;
     border-radius: 5px;
@@ -715,11 +741,23 @@ main {
     filter: blur(0px);
   }
 
+  .ficha-git{
+    width: 90%;
+    transition: 1s;
+  }
+
   .ficha-card {
     width: 90%;
     height: auto;
     padding: 10px;
     border-radius: 5px;
+  }
+
+  .git-readme{
+    transition: 1s;
+    width: 90%;
+    margin: 10px;
+    
   }
 
   .descricao {

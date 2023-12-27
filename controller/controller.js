@@ -46,6 +46,7 @@ carregarBancoDeDados()
             </section>
 
             <div class="line-project"></div>
+            <div class="ficha-git">
             <div class="ficha-card">
                 <h1 class="status">
                     Status: ${bd[geTLocalStorage("AtualGuia")].status}
@@ -55,12 +56,13 @@ carregarBancoDeDados()
                 </p>
                 <div class="line-splash"></div>
                 <span class="ficha-spans" id="responsividade">Responsivo: ${bd[geTLocalStorage("AtualGuia")].responsivo}</span>
-                <a href="${bd[geTLocalStorage("AtualGuia")].linkCod}">
-                    <span class="ficha-spans" id="codigoLink">Codigo:  <p class="descricao-link"> ${bd[geTLocalStorage("AtualGuia")].linkCodFake} </p></span>
-                </a>
                 <a href="${bd[geTLocalStorage("AtualGuia")].linkProj}">
-                    <span class="ficha-spans" id="projectLink">Project: <p class="descricao-link"> ${bd[geTLocalStorage("AtualGuia")].linkProjFake} </p></span>
+                    <span class="ficha-spans" id="projectLink">Project:  ${bd[geTLocalStorage("AtualGuia")].linkProjFake}</span>
                 </a>
+            </div>
+            <a  href="${bd[geTLocalStorage("AtualGuia")].linkCod}">
+            <img class="git-readme" src="https://github-readme-stats.vercel.app/api/pin/?username=JuhhSobrinho&repo=${bd[geTLocalStorage("AtualGuia")].nome}&theme=noctis_minimus" alt="Readme Card">
+          </a>
             </div>
             <div class="line-project"></div>`;
             imgFicha.innerHTML = sectionImgFicha;
