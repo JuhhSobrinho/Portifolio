@@ -15,7 +15,7 @@
         "descricao":"Ecom-Web projetado para informar preços de combustíveis, avaliação, localização e bandeira dos postos de combustíveis ⛽. Projeto inspirado em TCC.",
         "responsivo":"Sim",
         "linkCod":"https://github.com/JuhhSobrinho/Ecom-Web",
-        "linkProj":"https://juhhsobrinho.github.io/Ecom-Web/",
+        "linkProj":"https://juhhsobrinho.github.io/Ecom-Web/maps/mapa",
         "linkCodFake":"GitHub/Ecom.com",
         "linkProjFake":"GitHub.io/Ecom.com",
         "sobre":"ECOM é uma aplicação web desenvolvida utilizando React.js, CSS, HTML, Mapa, API de Geolocalização e Banco de Dados Firebase. Utilizamos o Mapa para fornecer informações sobre os postos e seus endereços, a API de geolocalização para converter endereços em latitude e longitude, com o objetivo de armazenar esses dados no Banco de Dados Firebase e utilizá-los no mapa.",
