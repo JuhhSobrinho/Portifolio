@@ -10,7 +10,7 @@
         "id": "1",
         "nome": "Ecom-Web",
         "img":"./assets/ecom.png",
-        "icon":"./assets/ecom.svg",
+        "icon":"./assets/Ecom-Prop.svg",
         "status":"Desenvolvido",
         "descricao":"Ecom-Web projetado para informar preços de combustíveis, avaliação, localização e bandeira dos postos de combustíveis ⛽. Projeto inspirado em TCC.",
         "responsivo":"Sim",
