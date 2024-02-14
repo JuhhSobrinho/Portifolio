@@ -20,10 +20,10 @@ carregarBancoDeDados()
         function saturacion(status) {
 
             let styleSatu = '';
-            if (status === "Em desenvolvimento") {
-                styleSatu = "filter: saturate(0);"
-            } else {
+            if (status === "Desenvolvido") {
                 styleSatu = "filter: saturate(1);"
+            } else {
+                styleSatu = "filter: saturate(0);"
             }
 
             return styleSatu;
@@ -101,12 +101,8 @@ carregarBancoDeDados()
                 seTLocarStorage("AtualGuia", link.id);
                 console.log(geTLocalStorage("AtualGuia"));
 
+                window.location.href = './projeto.html'; // Tempo de espera em milissegundos (pode ajustar conforme necessário)
 
-                if (link.id === "0") {
-                    window.location.href = './index.html';
-                } else {
-                    window.location.href = './projeto.html'; // Tempo de espera em milissegundos (pode ajustar conforme necessário)
-                }
             });
         });
 
