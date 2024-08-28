@@ -571,6 +571,10 @@ main {
     overflow: auto;
   }
 
+   #guias {
+  flex-direction: row-reverse;
+  }
+  
   main {
     background-color: #2f4550;
     width: 100%;
