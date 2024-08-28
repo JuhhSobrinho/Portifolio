@@ -574,6 +574,10 @@ main {
    #guias {
   flex-direction: row-reverse;
   }
+
+  #home{
+  justify-content: row;
+}
   
   main {
     background-color: #2f4550;
