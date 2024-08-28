@@ -576,7 +576,7 @@ main {
   }
 
   #home{
-  justify-content: row;
+  flex-direction: row;
 }
   
   main {
